@@ -1,9 +1,9 @@
 import React from 'react'
-import { First } from './components'
+import { BookList } from './components'
 export default function App() {
   return (
-    <>
-      <First />
-    </>
+    <section className="book-list">
+      <BookList />
+    </section>
   )
 }
